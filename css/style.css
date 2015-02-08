@@ -1,0 +1,172 @@
+
+.header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.container-fluid {
+    border-radius: 5px;
+}
+.main-content {
+    text-align: center;
+}
+
+.content {
+    font-size: 12px;
+    color: #11516b;
+    padding: 15px 25px 25px;
+    text-align: center;
+}
+
+.content strong {
+    cursor: pointer;
+}
+
+.user-list {
+    margin: 0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 0 #8e9091;
+}
+
+.row {
+    margin-left: 0;
+}
+
+.user-list .user {
+    padding: 3px 0;
+    margin: 1px 0;
+    background-color: #c9c9c9;
+}
+.user:first-child {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.user:last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.newUser {
+    float: right;
+    margin: 20px 35px 20px 20px;
+}
+
+.addUserForm, .editUserForm {
+    display: inline-block;
+    padding: 20px 25px;
+    box-shadow: 5px 5px 5px 0 #8e9091;
+    margin: 50px auto;
+    background-color: #c9c9c9;
+    border-radius: 5px;
+}
+
+.addUserForm {
+    max-width: 220px;
+}
+
+.editUserForm {
+    width: 250px;
+}
+
+.editUserForm label {
+    height: 20px;
+    margin: 0;
+}
+
+.editUserForm .control-group {
+    margin-bottom: 0px;
+}
+
+.submit-add, .submit-edit, .delete {
+    float: right;
+    margin-top: 20px;
+}
+
+.submit-add {
+    margin-right: 30px;
+}
+
+.cancel {
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.delete {
+    margin-right: 13px;;
+}
+
+.header-box {
+    background-color: #292d2f;
+    color: white;
+}
+
+.header-span {
+    height: 80px;
+    line-height: 80px;
+}
+
+.header-box {
+    color: white;
+}
+
+.header-box a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-box a:hover {
+    color: #a0a4a5;
+}
+
+.nav-bar {
+    display: inline-block;
+    list-style: none;
+    vertical-align: middle;
+    margin: 0;
+}
+.nav-bar li {
+    display: inline-block;
+    border-right: 1px solid white;
+    padding: 0px 10px;
+}
+
+.nav-bar li:last-child {
+    border-right: none;
+}
+
+.header-title h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttons-col {
+    padding-left: 50px;
+    text-align: left;
+}
+
+.showUser, .removeUser {
+    margin-right: 20px;
+}
+
+.alert{
+    width: 50%;
+    margin: 0 25%;
+}
+
+.alert-list {
+    list-style: none;
+    margin: 10px;
+}
+
+.alert-box {
+    text-align: center;
+}
+
+[class^="icon-"] {
+    margin-left: 5px;
+    margin-top: 0;
+}
+
+span[class^="error-"] {
+    cursor: pointer;
+}
