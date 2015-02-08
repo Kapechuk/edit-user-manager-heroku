@@ -22,7 +22,7 @@ var httpServer = require('http');
 var path = require('path');
 var connect = require('connect');
 
-var httpPort = 3000;
+var httpPort = process.env.PORT || 8888;
 
 var extensions = {
     'js'   : 'text/javascript',
