@@ -17,8 +17,5 @@
     "grunt-jasmine": "^0.1.0",
     "grunt-template-jasmine-istanbul": "^0.3.0",
     "grunt-shell": "^1.1.1"
-  },
-  "optionalDependencies": {
-    "grunt-jasmine-coverage": "~0.1.0"
   }
 }
