@@ -4,8 +4,7 @@
   "scripts": {
     "start": "node server.js"
   },
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "connect": "~2.14.4",
     "grunt-contrib-connect": "~0.5.0",
     "grunt-contrib-watch": "~0.5.2",
@@ -17,5 +16,7 @@
     "grunt-jasmine": "^0.1.0",
     "grunt-template-jasmine-istanbul": "^0.3.0",
     "grunt-shell": "^1.1.1"
+  },
+  "devDependencies": {
   }
 }
